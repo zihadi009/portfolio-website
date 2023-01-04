@@ -133,3 +133,50 @@ main {
     font-size: 20px;
     color: #474747;
 }
+
+.section-title {
+    text-align: center;
+}
+
+.section-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    text-align: center;
+    width: 909px;
+    height: 90px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    width: 267px;
+    height: 330px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    width: 201px;
+height: 196px;
+line-height: 28px;
+text-align: left;
+}
