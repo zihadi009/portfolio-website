@@ -136,6 +136,7 @@ main {
 
 .section-title {
     text-align: center;
+    margin-bottom: 113px;
 }
 
 .section-description {
@@ -161,6 +162,7 @@ main {
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
     padding: 30px;
+    margin-bottom: 130px;
 }
 
 .skill-title {
@@ -176,7 +178,72 @@ main {
     font-size: 16px;
     color: #757575;
     width: 201px;
-height: 196px;
-line-height: 28px;
-text-align: left;
+    height: 196px;
+    line-height: 28px;
+    text-align: left;
+}
+
+.resume-content {
+    display: flex;
+}
+
+.resume-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.resume .title {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.resume .sub-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.resume .description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+hr {
+    width: 558px;
+    border: 1px solid #D1D1D1;
+    margin-bottom: 30px;
+}
+
+.btn-primary2 {
+    background: #FD6E0A;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 0;
+    padding: 18px 17px;
+
+}
+
+.resume-button {
+    width: 200px;
+    height: 64px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 113px;
 }
